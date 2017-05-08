@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #90A4AE;
+    text-shadow: 1px 1px rgba(20,20,20, 0.5);
+    background: url('backg.jpg') repeat-x fixed;
+    background-size: 100%;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.page-wrapper {
+    padding: 1em;
+    width: 65%;
+    margin: auto;
+}
+
+#zen-intro h1, h2, h3 {
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-shadow: 2px 2px rgba(20,20,20, 0.5);
+}
+
+#zen-intro h2 {
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+}
+
+[role="article"] {
+    background: rgba(120, 144, 156, 0.1);
+    padding: 0.75em;
+    font-size: 1.2em;
+    text-align: justify;
+    border-radius: 0.1em;
+    margin: 5px 0;
+}
+
+[role="main"] [role="article"]:first-of-type {
+    border-radius: 1em 1em 0.1em 0.1em;
+    margin-top: 20px;
+}
+
+[role="main"] [role="article"]:last-of-type {
+    border-radius: 0.1em 0.1em 1em 1em;
+    margin-bottom: 20px;
+}
+
+#zen-intro [role="article"]:first-of-type {
+    border-radius: 1em 1em 0.1em 0.1em;
+    margin-top: 20px;
+}
+
+#zen-intro [role="article"]:last-of-type {
+    border-radius: 0.1em 0.1em 1em 1em;
+    margin-bottom: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #546E7A;
+}
+
+a:hover {
+    color: #607D8B;
+}
